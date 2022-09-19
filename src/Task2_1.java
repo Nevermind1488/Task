@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Arrays;
-public class Task2 {
+public class Task2_1 {
     public static void main(String[] args) {
         Random rand = new Random();
         int[] arr = new int[3];
