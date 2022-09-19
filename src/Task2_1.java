@@ -1,7 +1,9 @@
+import java.util.Locale;
 import java.util.Random;
 import java.util.Arrays;
 public class Task2_1 {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
         Random rand = new Random();
         int[] arr = new int[3];
         arr[0] = rand.nextInt(11);

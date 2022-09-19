@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 public class Task1 {
     public static double getS(double r, double R){
@@ -8,8 +9,8 @@ public class Task1 {
     double f = (d - b) / 8;
     return a + f;
     }
-
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите радиус r:");
         double r = scanner.nextDouble();

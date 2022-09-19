@@ -1,7 +1,9 @@
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 public class Task2_2 {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите A:");
         int a = scanner.nextInt();
